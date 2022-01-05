@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    padding: 32px;
+}
+
+.container {
+    display: flex;
+    padding: 0 4px;
+}
+
+.topPage .middlePage .bottomPage {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.topPage {
+    background-color: aqua;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
